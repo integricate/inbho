@@ -1,0 +1,19 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.inbho.com/sitemap.xml
+
+# Block admin and API routes from crawlers
+Disallow: /api/
+
+# Allow search engines to crawl all public pages
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for less aggressive crawling
+Crawl-delay: 10
